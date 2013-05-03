@@ -1,0 +1,83 @@
+.clear {
+    clear: both;
+}
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.border {
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #888;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#Login {
+    width: 500px;
+    margin-top: 200px;
+    padding: 30px;
+}
+
+#LoginInputPanel {
+    width: 240px;
+}
+
+#PnotifyEditorSkuTree {
+    height: 680px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#SkuVersionBody {
+    height: 330px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.adminItem {
+    width: 230px;
+}
+
+#PnotifyEditorSideBar, #AdminEditorSideBar {
+    padding-top: 20px;
+}
+
+#SkuVersionTree {
+    padding-top: 20px;
+}
+
+.PnotifyEditorSkuTreePanel {
+    padding-left: 20px;
+}
+
+#ModifyAdmin-SkuList {
+    padding-left: 20px;
+}
+
+#AdminEditorModifyAdmin,#AdminEditorAddAdmin {
+    height: 760px;
+}
+
+.notificationItem:hover {
+    background-color: #D9EDF7;
+}
+
+.GlobalNotificationList {
+    height: 330px;
+    overflow: auto;
+}
+
+.WeeklyNotificationList, .ReturnNotificationList {
+    height: 100px;
+    overflow: auto;
+}

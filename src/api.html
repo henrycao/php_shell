@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Change Test Serveer Time</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="./css/api.css">
+        <script src='./js/vendor/jquery/jquery-1.8.3.min.js'></script>
+        <script src='./js/api.js'></script>
+    </head>
+    <body>
+        <div id='left'>
+            <div id='apiList'>
+                <div>------CommandList------</div>
+                <div><input type='button' id='Add1Day' value='Add1Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Add7Day' value='Add7Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Add14Day' value='Add14Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Add30Day' value='Add30Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Reduce1Day' value='Reduce1Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Reduce7Day' value='Reduce7Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Reduce14Day' value='Reduce14Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='Reduce30Day' value='Reduce30Day' onclick='switchAPI(this);'></div>
+                <div><input type='button' id='ResetRealTime' value='ResetRealTime' onclick='switchAPI(this);'></div>
+            </div>
+        </div>
+
+        <div id='right'>
+            <div id='params'>
+                <div id='apiDescription'></div>
+                <div id='parameters'></div>
+                <div id='sendDiv'><input type='button' onclick='call();' value='Call'></div>
+            </div>
+            <div id='result'></div>
+        </div>
+    </body>
+</html>
