@@ -26,12 +26,9 @@ this folder is where to put the shell script, in this case, it is a change time 
 * add web user with the execute authorication
 in this case, the web container use nginx and runs by user nginx
 
-$ chmod 644 /etc/sudoers
-
+`$ chmod 644 /etc/sudoers`
 add this confige to sudoers
-
-$ nginx  ALL=(ALL)       NOPASSWD:ALL
-
-$ chmod 400 /etc/sudoers
+`$ nginx  ALL=(ALL)       NOPASSWD:ALL`
+`$ chmod 400 /etc/sudoers`
 
 
